@@ -13,6 +13,12 @@
     <!-- Styles -->
     @vite('resources/js/app.js')
 
+    <style>
+        main {
+            background-color: antiquewhite;
+        }
+    </style>
+
 </head>
 
 <body>

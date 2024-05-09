@@ -15,3 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PageController::class, 'index'])->name('guest.home');
+
+Route::get('/abouts', [PageController::class, 'about'])->name('guest.about');
+
+Route::get('/contacts', [PageController::class, 'contacts'])->name('guest.contacts');
