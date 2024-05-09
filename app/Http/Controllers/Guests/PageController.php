@@ -11,7 +11,6 @@ class PageController extends Controller
     public function index()
     {
         $movies = movie::orderByDesc('id')->get();
-        dd($movies);
         return view('guest.welcome', compact('movies'));
     }
 }
